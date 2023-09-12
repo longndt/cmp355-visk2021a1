@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Demo</title>
+</head>
+<body>
+	<h1>User Login</h1>
+	<form>
+		<!-- required: user must input data to form 
+		        => compulsory information 
+		-->
+		Username: <input type="text" required>
+		<br><br>
+		Password: <input type="password" required>
+		<br><br>
+		<input type="submit" value="Login">
+	</form>
+	<hr>
+	<h1>Add student information</h1>
+	<form>
+		Name: <input type="text" minlength="5" maxlength="15"  placeholder="Enter student's full name here"
+		size="30">
+		<br><br>
+		DoB: <input type="date" required>
+		<br><br>
+		University: <input type="text" value="International School - Vietnam National University" size="40" readonly>
+		<br><br>
+		Nationality: <input type="text" value="Vietnam" disabled>
+		<br><br>
+		Student year: <input type="number" min="1" max="5" required>
+		<br><br>
+		Hometown: 
+		<select>
+			<option>Ha Noi</option>
+			<option>Hai Duong</option>
+			<option>Hai Phong</option>
+			<option>Bac Ninh</option>
+			<option>Ha Nam</option>
+		</select>
+	    <br><br>
+	    Gender: 
+	    <!-- radio button: used to select 1 option -->
+	    Male <input type="radio" name="gender">
+	    Female <input type="radio" name="gender">
+	    LGBT <input type="radio" name="gender">
+	    <br><br>
+	    Hobbies: <br>
+	    <!-- checkbox: used to select 0, 1, many or all options -->
+	    <input type="checkbox"> Movie <br>
+	     <input type="checkbox"> Music <br>
+	    <input type="checkbox"> Tourism <br>
+	    <input type="checkbox"> Shopping <br>
+	    <input type="checkbox"> Game <br>
+		<input type="submit" value="Add">
+	</form>
+</body>
+</html>
