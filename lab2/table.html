@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- title is optional but we should insert a proper title
+		for our webpage. if title is set as blank, the file name
+		will be used as page title -->
+	<title>Table Demonstration</title>
+</head>
+<body>
+   <!-- order: create table (table) firstly, create rows (tr) secondly and 
+   	create columns (th, td) lastly -->
+   	<!-- boundary (outside -> inside) : table -> row -> column -->
+   	<table border="1" align="center">
+   		<!-- thead, tbody: optional but recommend to include -->
+   		<!-- align: left, right, center -->
+   		<thead>
+	   		<tr bgcolor="yellow">
+	   			<!-- th: bold text (title), td: normal text (data) --> 
+	   			<th>Product name</th>
+	   			<td><b>Product price</b></td>
+	   			<td><strong>Product image</strong></td>
+	   			<th>Brand</th>
+	   		</tr>
+	  </thead>
+	  <tbody>
+	   		<tr bgcolor="blue">
+				<td>Macbook Pro M2</td>
+	   			<td align="right">2500$</td>
+	   			<td>
+	   				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4a4B4zdQy3M0jQ6m2RtqFSmXRu8vCWCgt3g&usqp=CAU" width="150" height="100">
+	   			</td>
+	   			<td>Apple</td>
+	   		</tr>
+   		<tr bgcolor="green">
+			<td>Macbook Pro M2</td>
+   			<td>2500$</td>
+   			<td>
+   				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4a4B4zdQy3M0jQ6m2RtqFSmXRu8vCWCgt3g&usqp=CAU" width="150" height="100">
+   			</td>
+   			<td>Samsung</td>
+   		</tr>
+   		<tr>
+			<td>Macbook Pro M2</td>
+   			<td bgcolor="red">9999$</td>
+   			<td>
+   				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4a4B4zdQy3M0jQ6m2RtqFSmXRu8vCWCgt3g&usqp=CAU" width="150" height="100">
+   			</td>
+   			<td>Dell</td>
+   		</tr>
+   	</tbody>
+   	</table>
+</body>
+</html>
