@@ -1,0 +1,10 @@
+body {
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrrg-jvJrViDo7ogRe9vlt5nVnq5U8_1zLWA&usqp=CAU");
+	background-repeat: no-repeat
+}
+
+h1 {
+	font-family: Georgia, serif;
+	font-style: italic;
+	color: red;
+}
