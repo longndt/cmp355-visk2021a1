@@ -1,0 +1,27 @@
+nav ul li a {
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: cursive;
+	text-transform: uppercase;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block; /* most important */
+	padding: 20px;
+
+}
+
+nav ul {
+	background-color: yellow;
+	text-align: center;
+}
+
+nav a:hover {
+	text-decoration: underline;
+	color: blue;
+	font-size: 22px;
+	border: 1px blue dotted;
+}

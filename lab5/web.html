@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Tutorial</title>
+	<!-- 2nd way: internal CSS 
+		Note: can apply for multiple elements in webpage
+	-->
+	<style type="text/css">
+		/* element {
+			attribute: value
+		} */
+		h1, h2{
+			color: coral;
+			font-style: italic;
+			text-decoration: underline;
+			text-transform: lowercase;
+			border: 2px red dotted; /* thickness - color - type */
+		}
+		/* apply common properties for all heading 3 */
+		h3 {
+			color: white;
+			text-decoration: underline;
+		}
+		/* use id to set separate properties for each heading 3 */
+		h3#vnu {
+			background-color: blue;
+			font-family: "Lucida Console", "Courier New", monospace;
+		}
+		h3#ftu {
+			background-color: darkmagenta;
+			font-family: fantasy;
+		}
+		.red-border-uppercase {
+			color: red;
+			border: 2px brown solid;
+			text-transform: uppercase;
+		}
+		.red-border-lowercase {
+			color: red;
+			border: 2px brown solid;
+			text-transform: lowercase;
+		}
+		.red-noborder-lowercase {
+			color: red;
+			text-transform: lowercase;
+		}
+	</style>
+</head>
+<body>
+	<p class="red-border-uppercae">Paragraph 1</p>
+	<p class="red-border-lowercase">Paragraph 2</p>
+	<p class="red-border-lowercase">Paragraph 3</p>
+	<p class="red-border-uppercase">Paragraph 4</p>
+	<p class="red-noborder-lowercase">Paragraph 5</p>
+
+
+	<h3 id="ftu">FTU</h3>
+	<h3 id="vnu">VNU</h3>
+	<h2>This is heading 2</h2>
+	<h1>This is heading 1</h1>
+	<h1>This is another heading 1</h1>
+	<h1>This is just another heading 1</h1>
+	<!-- 1st way: inline CSS 
+		 style="attribute: value"
+		 Note: only apply for single element (item) in webpage
+	-->
+	<p style="color: limegreen;">This is a paragraph</p>
+	<p style="background-color: burlywood;
+			  font-style: italic;	
+			  font-weight: bold;
+			  text-decoration: underline;
+			  color: limegreen;
+			">
+	This is another paragraph
+	</p>
+	<p style="font-style: italic;">Just another paragraph</p>
+</body>
+</html>
