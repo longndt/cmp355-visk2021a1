@@ -1,0 +1,67 @@
+* {
+	/* reset margin & padding */
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/* change text's format */
+	color: red;
+	font-weight: bold;
+	font-size: 40px;
+
+	text-align: center;
+}
+
+div#box1 {
+	background-color: lightblue;
+	/* set dimension (size) */
+	width: 200px;
+	height: 200px;
+	/* padding */
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	/* border */
+	border-width: 15px;
+	border-right-color: brown;
+	border-right-style: dashed;
+	border-left-style: dotted;
+	border-top-style: solid;
+	border-bottom-style:groove;
+
+	padding-top: 100px; 
+	line-height: 100px;
+
+	/* margin */
+	margin-bottom: 40px;
+	margin-left: 200px;
+	margin-top: 30px;
+}
+
+div#box2 {
+	background-color:lawngreen;
+	width: 200px;
+	height: 200px;
+	padding: 10px 20px 10px 20px;  /* top right bottom left */
+	border: 4px orange solid;      /* width color style */
+
+	/* set text as vertically center */
+	padding-top: 100px; /* 50% of total height */
+	line-height: 100px; /* 50% of total height */
+
+	padding-left: 130px; /* move inside content to the right */
+	padding-bottom: 150px; /* move inside content  to the top */
+
+	margin: 100px 200px 100px 200px;  /* top right bottom left */
+} 
+
+div#b2 {
+	background-color: blue;
+	border: 8px yellow dotted;
+	width: 30px;
+	height: 30px;
+	padding: 40px;
+	margin: 5px;
+}
