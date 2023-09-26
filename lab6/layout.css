@@ -1,0 +1,80 @@
+body {
+	width: 90%;
+	margin: 0;
+	padding: 0;
+
+	text-align: center;
+	color: red;
+	font-weight: bold;
+ 
+}
+
+div#top {
+	height: 150px;
+	background-color: yellow;
+}
+
+div#navigation {
+	height: 150px;
+	background-color: brown;
+	float: left;
+	width: 80%;
+}
+
+div#navigation nav ul li {
+	display: inline-block;
+	padding: 20px;
+}
+
+div#navigation nav ul li a {
+	font-size: 120%;
+	color: yellow;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+div#navigation nav ul li a:hover {
+	color: blue;
+	text-decoration: underline;
+	background-color: coral;
+}
+
+div#logo {
+	height: 150px;
+	float: right;
+	width: 20%;
+}
+
+div#logo img {
+	width: 100%;
+	height: 100%;
+	background-color: lime;
+}
+
+div#left {
+	clear: left;
+	height: 300px;
+	background-color: blue;
+	float: left;
+	width: 30%;
+}
+
+div#center {
+	height: 300px;
+	background-color: hotpink;
+	float: left;
+	width: 40%;
+}
+
+div#right {
+	height: 300px;
+	background-color: green;
+	float: right;
+	width: 30%;
+}
+
+div#bottom {
+	clear: left; /* very important */
+	height: 100px;
+	background-color: orange;
+}
