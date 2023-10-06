@@ -1,0 +1,13 @@
+selector1, selector2 {
+	attribute1: value1;
+	attribute2: value2;
+}
+
+h1, h3 {
+	color: red;
+	font-style: italic;
+}
+
+#id_name {  }
+
+.class_name {  }
