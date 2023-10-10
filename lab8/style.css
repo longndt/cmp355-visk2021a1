@@ -1,0 +1,38 @@
+
+p {
+	/* font-weight: bold;
+	font-size: large;
+	font-family: sans-serif; */
+	font: bold large sans-serif; /* short-hand */
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	text-transform: capitalize;
+	text-shadow: 3px 5px 4px red;
+}
+
+span#old_price {
+	text-decoration: line-through;
+}
+
+body {
+	background-color: #cdd61c;
+}
+
+h1#h1a {
+	color: rgb(9, 176, 173);	
+}
+
+#h1b {
+	color: #b07609;	
+}
+
+h2#h1a {
+	color: #8609b0;	
+	font-weight: bo;
+}
+
+/* set the format (style) for all elements with class name "vnu" */
+.vnu {
+	/* background-color: brown; */
+	border: 2px solid red;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function welcome() {
+			alert('Welcome to VNU IS !');
+		}
+		
+		function red() {
+			document.getElementById("vnu").style.color = 'red';
+		}
+
+		function italic() {
+			document.getElementById("vnu").style.fontStyle = 'italic';
+		}
+
+		function bold() {
+			document.getElementById("vnu").style.fontWeight = 'bold';
+		}
+
+		function changeContent() {
+			document.getElementById("vnu").innerHTML = "Đại học quốc gia Hà Nội";
+		}
+	</script>
+</head>
+<body>
+	<button onclick="return welcome();">Click me to see what happen</button>
+	<br><br>
+	<button onclick="return confirm('Are you sure to delete this item ?');">Delete</button>
+	<p id="vnu">Vietnam National University</p>
+	<button onclick="return changeContent();">Change text</button>
+	<button onclick="return red();">Red</button>
+	<button onclick="return italic();">Italic</button>
+	<button onclick="return bold();">Bold</button>
+</body>
+</html>
